@@ -2,7 +2,9 @@
   "name": "ajay-o-s",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ajay-o-s.github.io",
+  "homepage": "https://ajay-o-s.me",
+  "description": "my home page see in ajay-o-s.me",
+  "main": "src/app.js",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -50,8 +52,6 @@
     "gh-pages": "^4.0.0",
     "git-push.js": "^4.0.3"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "src/app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ajay-o-s/Ajay-o-s.github.io.git"
