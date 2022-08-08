@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeplay": "npm run build",
-    "push": "gh-pages -d build"
+    "push": "react-scripts build && cp -r data/* build/ && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
