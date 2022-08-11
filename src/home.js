@@ -13,16 +13,11 @@ console.log(ev)
         		<h1>AJAY O S </h1>
             <div class="search-tab">
               <form action="https://www.google.com/search?" method="get">
-                
                 <input type="text" name="q" placeholder="Search..." className="search" required/>
-                
                 </form>
             </div>
             <br></br>
             ev= {ev.width}+ {ev.height}
-        
-        		
-    
     		</section>
     	</div>
 	);

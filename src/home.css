@@ -23,7 +23,6 @@ header {
   background: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
   font-size: 19px;
-  width: 500px;
   height: 35px;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
@@ -103,11 +102,54 @@ section h1 {
       width: 350px;
       height: 450px;
     }
+   
     section .search-tab {
       width: 300px;
     }
   }
   
+  @media only screen 
+  and (min-device-width : 320px)   
+  and (max-device-width : 480px)  
+  { /* STYLES GO HERE */}  
+
+  @media only screen   
+  and (min-device-width : 360px)   
+  and (max-device-width : 640px)  
+  {
+    .search {
+      width: 300px;
+    }
+  }
  
-  
-  
+  @media only screen   
+  and (min-width: 1370px)  
+  and (max-width: 1605px)
+  {
+    .search {
+      width: 500px;
+    }
+  }  
+
+  @media only screen
+  and (min-width: 1030px)   
+  and (max-width: 1366px)
+  {
+    .search {
+      width: 500px;
+    }
+  }  
+
+  @media only screen
+  and (min-device-width : 768px)   
+  and (max-device-width : 1024px)
+  {
+    section {
+      width: 450px;
+      height: 450px;
+    }
+   
+    section .search-tab .search{
+      width: 350px;
+    }
+  }
