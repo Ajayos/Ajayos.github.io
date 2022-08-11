@@ -111,7 +111,11 @@ section h1 {
   @media only screen 
   and (min-device-width : 320px)   
   and (max-device-width : 480px)  
-  { /* STYLES GO HERE */}  
+  { 
+    .search {
+      width: 250px;
+    }
+  }  
 
   @media only screen   
   and (min-device-width : 360px)   
@@ -140,16 +144,45 @@ section h1 {
     }
   }  
 
+
   @media only screen
-  and (min-device-width : 768px)   
+  and (min-device-width : 850px)   
   and (max-device-width : 1024px)
   {
     section {
-      width: 450px;
+      width: 550px;
       height: 450px;
     }
    
     section .search-tab .search{
-      width: 350px;
+      width: 500px;
+    }
+  }
+  
+  @media only screen
+  and (min-device-width : 760px)   
+  and (max-device-width : 815px)
+  {
+    section {
+      width: 550px;
+      height: 450px;
+    }
+   
+    section .search-tab .search{
+      width: 300px;
+    }
+  }
+
+  @media only screen
+  and (min-device-width : 820px)   
+  and (max-device-width : 845px)
+  {
+    section {
+      width: 550px;
+      height: 450px;
+    }
+   
+    section .search-tab .search{
+      width: 300px;
     }
   }
