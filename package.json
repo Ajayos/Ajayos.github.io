@@ -2,7 +2,7 @@
   "name": "ajay-o-s",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ajay-o-s.me",
+  "homepage": "https://ajay-o-s.github.io",
   "description": "my home page see in ajay-o-s.me",
   "main": "src/app.js",
   "dependencies": {

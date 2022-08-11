@@ -39,6 +39,8 @@
     cursor: pointer;
 }
 
+
+
 .search__icon:hover {cursor: pointer;}
 .search__icon:hover:active{background: red;}
 

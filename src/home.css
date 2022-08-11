@@ -17,11 +17,11 @@ header {
   background-color:rgb(0, 0, 0);
   box-shadow: 1px 1px 8px black;
 }
-
+  
 .search {
   position: absolute;
   background: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
   font-size: 19px;
   width: 500px;
   height: 35px;
@@ -29,7 +29,7 @@ header {
   font-family: 'Raleway', sans-serif;
   cursor: pointer;
 }
-
+  
 section {
   display: flex;
   flex-direction: column;
@@ -47,13 +47,13 @@ section .search-tab {
   margin-bottom: 30px;
   width: 500px;
 }
-
+  
 section .search-tab {
   font-size: 20px;
   font-weight: bold;
 }
 
-.main {
+.home {
   display: flex;
   height: 100vh;
   align-items: center;
@@ -65,7 +65,7 @@ section .search-tab {
   background-attachment: fixed;
   align-items: center;
 }
-
+  
 section .search-tab .search{
   height: 40px;
   outline: none;
@@ -84,22 +84,12 @@ section .search-tab .search{
 select:hover{
   background-color:#f0f0f0;
 }
-
+  
 section {
   height: 90px;
   border-radius: 15px;
   font-size: 20px;
   font-weight: bolder;
-}
-
-@media only screen and (max-width:850px){
-  section {
-    width: 350px;
-    height: 450px;
-  }
-  section .search-tab {
-    width: 300px;
-  }
 }
 
 section h1 {
@@ -108,42 +98,16 @@ section h1 {
   text-transform: capitalize;
 }
 
-.search__icon {
-  position: absolute;
-  background: url(./search.svg) no-repeat center center;    
-  width: 23px;
-  height: 39px;
-  border-radius: 50%;
-}
-
-.Microphone__icon {
-  position: left;
-  background: url(./microphone.svg)no-repeat center center; 
-  width: 25px;
-  height: 39px;
-  border-radius: 50px;
-
-}  
-
-.search__icon:hover {cursor: pointer;}
-.search__icon:hover:active{background: red;}
-
-.Microphone__icon:hover {cursor: pointer;}
-.Microphone__icon:hover:active{background: red;}
-
-.search_one {
-  position: absolute;
-  background: rgb(255, 255, 255);
-  width: 100px;
-  height: 39px;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.search_two {
-  position: absolute;
-  background: rgb(255, 255, 255);
-  width: 100px;
-  height: 39px;
-  border-radius: 50px;
-}
+  @media only screen and (max-width:850px){
+    section {
+      width: 350px;
+      height: 450px;
+    }
+    section .search-tab {
+      width: 300px;
+    }
+  }
+  
+ 
+  
+  

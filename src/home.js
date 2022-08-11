@@ -1,20 +1,25 @@
 import "./home.css";
 
-const Home = () => {
+
+
+const Home = ({ev}) => {
+  
+console.log(ev)
+    
+
 	return (
-		<div class="main">
+		<div class="home">
         	<section>
-        		<h1>AJAY O S</h1>
-				
+        		<h1>AJAY O S </h1>
             <div class="search-tab">
-              <form action="/search?" method="get">
-                <div className="search_one"/>
-                <div className="search_two"/>
-					      <input type="text" class="search" name="data" placeholder="enter your link" required></input>
-                <div className="search__icon" />
-                <div className="Microphone__icon" />
+              <form action="https://www.google.com/search?" method="get">
+                
+                <input type="text" name="q" placeholder="Search..." className="search" required/>
+                
                 </form>
             </div>
+            <br></br>
+            ev= {ev.width}+ {ev.height}
         
         		
     
