@@ -10,7 +10,6 @@ function App() {
 			<Switch>
 				<Route path="/love" component={Love} />
 				<Route component={Home} />
-				
 			</Switch>
   		</Router>
     </div>

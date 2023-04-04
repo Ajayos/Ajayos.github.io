@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    display: table;
+    width: 100%; height: 100%;
+    table-layout: fixed;
+    opacity: 100%;
+}
+
+body {
+    display: table-cell;
+    width: 100%; height: 100%;
+    vertical-align: middle;
+    color: rgb(155, 188, 7);
+}
+  
+.wrapper {
+    width: 500px; height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+  
+input[type="checkbox"] {
+    display: none;
+}
+  
+input[type="checkbox"] + label {
+    width: 100px; height: 100px;
+    line-height: 100px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    transition: all 1s ease;
+}
+  
+label {
+    text-shadow: 5px 0px 0px rgba(84, 4, 222, 0.5);
+}
+    
+label:hover {
+    color: #ff2f00;
+    cursor: pointer;
+}
+  
+#titit1 + label,
+#titit2 + label {
+    border-radius: 50px;
+    top: 0;
+}
+  
+#titit1:checked + label,
+#titit2:checked + label,
+#titit3:checked + label {
+    background: red;
+    text-shadow: 5px 4px 0px rgba(84, 4, 222, 0.5);
+    font-size: 0;
+    transition: all 1s ease;
+}
+  
+#titit1:checked + label,
+#titit2:checked + label {
+    width: 300px; height: 300px;
+    border-radius: 150px;
+    line-height: 300px;
+}
+  
+#titit1 + label {
+    left: 0;
+}
+
+#titit2 + label {
+    right: 0;
+}
+
+#titit3 + label {
+    bottom: 0; left: 50%;
+    margin: 0 -50px;
+}
+#titit3:checked + label {
+    width: 275px; height: 275px;
+    bottom: 96px; left: 162px;
+    transform: rotate(45deg);
+    line-height: 27px;
+}
+  
+button {
+    text-align: center;
+    position: absolute;
+    bottom: -50px; left: 50%;
+    margin-left: -100px;
+    width: 300px;
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    width: 250px;
+    border: none;
+    outline: none;
+    color: hsl(47, 100%, 50%);
+    background: black;
+    text-shadow: 5px 0px 0px rgba(11, 4, 222, 0.5);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+button:hover {
+    color: #ff2f00;
+    cursor: pointer;
+}
+  
+button:before{
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -3px;
+    height: calc(100% + 4px);
+    width: calc(100% + 5px);
+    border-radius: 7px;
+    z-index: -1;
+    opacity: 5;
+    filter: blur(5px);
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 400%;
+    transition: opacity .3s ease-in-out;
+    animation: animate 20s linear infinite;
+}
+  
+button:hover:before{
+    opacity: 1;
+}
+  
+button:hover:active{
+    background: none;
+}
+  
+button:hover:active:before{
+    filter: blur(2px);
+}
+
+@keyframes animate {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+span {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  
+  left: 75%;
+  margin-left: -10px;
+  width: 200px;
+  font-size: 24px;
+  color: rgb(5, 246, 17);
+}
+
+@media only screen and (max-width:550px){
+    span {
+        bottom: -50px; 
+    }
+  }
+  @media only screen and (min-width:550px){
+    span {
+        bottom: 50px; 
+    }
+  }
