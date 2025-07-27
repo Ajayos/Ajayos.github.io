@@ -1,4 +1,4 @@
-# 🚀 AOS — Ajay O S Organization
+# 🚀 AOS — Ajay O S
 
 Welcome to **AOS** — the central hub of **automation services**, **developer tools**, and **open-source innovation** by [Ajay O S](https://ajayos.in).
 
