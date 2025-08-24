@@ -8,9 +8,9 @@ AOS is committed to ensuring the security and integrity of our codebase and serv
 
 We follow a **rolling support policy** and continuously maintain the latest active code.
 
-| Version     | Status     |
-|-------------|------------|
-| 2025+       | ✅ Supported |
+| Version       | Status           |
+| ------------- | ---------------- |
+| 2025+         | ✅ Supported     |
 | Older (<2025) | ❌ Not Supported |
 
 ---
@@ -22,6 +22,7 @@ If you believe you've found a security vulnerability or critical issue, please r
 📧 Email: [ajayosakhub@gmail.com](mailto:ajayosakhub@gmail.com)
 
 Please include as much detail as possible:
+
 - Description of the vulnerability
 - Steps to reproduce
 - Affected components or files
@@ -40,6 +41,7 @@ We prefer responsible disclosure and private discussion to ensure all users are 
 ## 🚫 Do Not
 
 Please **do not**:
+
 - Share vulnerabilities publicly before disclosure and patching
 - Use exploits on production systems or user accounts
 - Perform any testing that violates user privacy or service integrity

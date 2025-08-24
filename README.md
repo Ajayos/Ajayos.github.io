@@ -10,13 +10,13 @@ Welcome to **AOS** — the central hub of **automation services**, **developer t
 
 AOS (Ajay O S) is an ever-evolving suite of:
 
-- ⚙️ **Backend Services**  
-- 🧠 **AI & Chatbot Frameworks**  
-- 📦 **GitHub Automations**  
-- 🤖 **Workflow Integrations**  
-- 🛠️ **CLI Tools & Utilities**  
-- 🪄 **Web Automation**  
-- 📲 **WhatsApp & Social Bots**  
+- ⚙️ **Backend Services**
+- 🧠 **AI & Chatbot Frameworks**
+- 📦 **GitHub Automations**
+- 🤖 **Workflow Integrations**
+- 🛠️ **CLI Tools & Utilities**
+- 🪄 **Web Automation**
+- 📲 **WhatsApp & Social Bots**
 
 All tailored to **boost developer productivity**, **streamline devops**, and **automate everything**.
 
@@ -25,6 +25,7 @@ All tailored to **boost developer productivity**, **streamline devops**, and **a
 ## 📂 Repositories at a Glance
 
 ### ⚙️ Core Services & Packages
+
 - 🐳 **Dockerized Services & APIs**
 - 🌐 **Express & Fastify API Backends**
 - 🔐 **Authentication & OAuth Frameworks**
@@ -36,6 +37,7 @@ All tailored to **boost developer productivity**, **streamline devops**, and **a
 ---
 
 ### 🤖 Automation Systems
+
 - 📲 **WhatsApp Chatbot with BullMQ & Redis Sentinel**
 - 🔗 **Website Crawling & Webhook Automation**
 - 📦 **GitHub Repo Management Bot**
@@ -46,6 +48,7 @@ All tailored to **boost developer productivity**, **streamline devops**, and **a
 ---
 
 ### 📱 Social Media Automation
+
 - 📸 **Instagram Auto-post / Profile Bot**
 - 📘 **Facebook Pages & Messenger Bots**
 - 🎥 **YouTube Automation (Upload, Commenting)**
@@ -55,6 +58,7 @@ All tailored to **boost developer productivity**, **streamline devops**, and **a
 ---
 
 ### 🛠️ Developer Utilities
+
 - 📁 **File Converters & Code Generators**
 - 🧩 **Reusable UI Components (React/MUI/Tailwind)**
 - 📝 **Template Packs: SQL / HTML / Markdown**
@@ -81,14 +85,14 @@ AOS also includes tools to help developers contribute and build faster:
 
 ## ⚡ Tech Stack
 
-| Layer           | Tools & Tech                                           |
-|-----------------|--------------------------------------------------------|
-| 🔧 **Backend**   | Node.js, Express, Fastify, REST, WebSocket, Kafka      |
-| 💾 **Databases** | MongoDB, MySQL, Redis, SQLite, MariaDB                |
-| 🚀 **DevOps**    | Docker, GitHub Actions, NGINX, Tailscale, Cron         |
-| 🧠 **AI/NLP**     | OpenAI GPT, Langchain (planned), BotML, Regex NLP     |
-| 🌐 **Frontend**  | React, Vite, Tailwind CSS, MUI, Next.js                |
-| 📲 **Bots & APIs**| WhatsApp API, Meta Graph API, GitHub API, Mail APIs  |
+| Layer              | Tools & Tech                                        |
+| ------------------ | --------------------------------------------------- |
+| 🔧 **Backend**     | Node.js, Express, Fastify, REST, WebSocket, Kafka   |
+| 💾 **Databases**   | MongoDB, MySQL, Redis, SQLite, MariaDB              |
+| 🚀 **DevOps**      | Docker, GitHub Actions, NGINX, Tailscale, Cron      |
+| 🧠 **AI/NLP**      | OpenAI GPT, Langchain (planned), BotML, Regex NLP   |
+| 🌐 **Frontend**    | React, Vite, Tailwind CSS, MUI, Next.js             |
+| 📲 **Bots & APIs** | WhatsApp API, Meta Graph API, GitHub API, Mail APIs |
 
 ---
 
@@ -112,20 +116,18 @@ Some repositories are private, including:
 - 🔒 **Key Management Services**
 
 > Want access or collaboration?  
-📧 Contact: [aos.bot.email@gmail.com](mailto:aos.bot.email@gmail.com)
+> 📧 Contact: [aos.bot.email@gmail.com](mailto:aos.bot.email@gmail.com)
 
 ---
 
 ## 💻 Active Projects (Q3 2025)
 
-
-- 🌐 **`MultiServe-Node`** — Multi-module Node.js Server  
-- 📊 **`athat`** — Dark-themed Analytics Dashboard  
-- 🔗 **`link-preview-blocker`** — Express Middleware for Bots  
-- ⚙️ **`pi_server` / `pi_init`** — Raspberry Pi Server Setup  
-- 🔧 **`auth-suite`** — OTP, Device Management, Token Validator  
+- 🌐 **`MultiServe-Node`** — Multi-module Node.js Server
+- 📊 **`athat`** — Dark-themed Analytics Dashboard
+- 🔗 **`link-preview-blocker`** — Express Middleware for Bots
+- ⚙️ **`pi_server` / `pi_init`** — Raspberry Pi Server Setup
+- 🔧 **`auth-suite`** — OTP, Device Management, Token Validator
 - 💬 **`Keerthana`** — Personal Assistant Bot (In Dev)
-
 
 ---
 

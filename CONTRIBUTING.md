@@ -27,19 +27,23 @@ To submit changes:
 2. **Clone** your fork locally:
    ```bash
    git clone https://github.com/ajayos/ajayos.github.io.git
-```
+   ```
+
+````
 
 3. **Create a new branch** for your change:
 
    ```bash
    git checkout -b feature/your-feature-name
-   ```
+````
+
 4. **Make your changes**, commit, and push:
 
    ```bash
    git commit -m "✨ Add feature: your description"
    git push origin feature/your-feature-name
    ```
+
 5. **Open a Pull Request (PR)** to the `main` or appropriate branch
 6. Wait for review, and make any suggested changes
 
@@ -49,11 +53,11 @@ To submit changes:
 
 ## 📋 Guidelines
 
-* Follow existing code style and folder structure
-* Add meaningful commit messages (use emojis if you'd like! 🎉)
-* Keep pull requests focused and atomic (one change at a time)
-* Link related issues if applicable
-* Use Draft PRs for work-in-progress
+- Follow existing code style and folder structure
+- Add meaningful commit messages (use emojis if you'd like! 🎉)
+- Keep pull requests focused and atomic (one change at a time)
+- Link related issues if applicable
+- Use Draft PRs for work-in-progress
 
 ---
 
@@ -70,9 +74,8 @@ To submit changes:
 
 Feel free to:
 
-* Open a **GitHub Discussion** (if enabled)
-* Email: [ajayosakhub@gmail.com](mailto:ajayosakhub@gmail.com)
-
+- Open a **GitHub Discussion** (if enabled)
+- Email: [ajayosakhub@gmail.com](mailto:ajayosakhub@gmail.com)
 
 ---
 
