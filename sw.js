@@ -78,23 +78,26 @@ define(['./workbox-ecdd2ace'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "assets/index-BLJNNVNo.js",
+    "url": "assets/index-DPvtxL-X.css",
     "revision": null
   }, {
-    "url": "assets/index-DPvtxL-X.css",
+    "url": "assets/index-DSx2hdFD.js",
     "revision": null
   }, {
     "url": "assets/workbox-window.prod.es5-B9K5rw8f.js",
     "revision": null
   }, {
     "url": "index.html",
-    "revision": "e7b26c9b3176154535c04979b2954f80"
+    "revision": "37478e2d9ecd097cbde7dc68c508a233"
   }, {
     "url": "offline.html",
     "revision": "9ee2b2182f7a80dfeb4257050b123cd9"
   }, {
     "url": "z75co8kjlyukaxklltt4csngqv72fm.html",
     "revision": "62ef7524b88db7ec545232c98d77b777"
+  }, {
+    "url": "ajayos.png",
+    "revision": "710f30dc4f15603514f17db5eabb4f89"
   }, {
     "url": "android-chrome-192x192.png",
     "revision": "310778758d1774acbc1e71703044f7bd"
